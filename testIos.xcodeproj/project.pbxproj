@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DF213A0297524DE00F6D70C /* CustomPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF2139F297524DE00F6D70C /* CustomPlayerView.swift */; };
+		5DF213A22975251400F6D70C /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF213A12975251400F6D70C /* CustomVideoPlayer.swift */; };
+		5DF213A42975254800F6D70C /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF213A32975254800F6D70C /* Media.swift */; };
+		5DF213A62975256900F6D70C /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF213A52975256900F6D70C /* PlayerViewModel.swift */; };
+		5DF213A8297526A600F6D70C /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF213A7297526A600F6D70C /* PlayerView.swift */; };
 		5DFB7A662970059300B15E97 /* testIosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB7A652970059300B15E97 /* testIosApp.swift */; };
 		5DFB7A682970059300B15E97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB7A672970059300B15E97 /* ContentView.swift */; };
 		5DFB7A6A2970059800B15E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB7A692970059800B15E97 /* Assets.xcassets */; };
 		5DFB7A6D2970059800B15E97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB7A6C2970059800B15E97 /* Preview Assets.xcassets */; };
+		5DFB7A7529702D0600B15E97 /* CustomControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB7A7429702D0600B15E97 /* CustomControlsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DF2139F297524DE00F6D70C /* CustomPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayerView.swift; sourceTree = "<group>"; };
+		5DF213A12975251400F6D70C /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		5DF213A32975254800F6D70C /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		5DF213A52975256900F6D70C /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		5DF213A7297526A600F6D70C /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		5DFB7A622970059300B15E97 /* testIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFB7A652970059300B15E97 /* testIosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testIosApp.swift; sourceTree = "<group>"; };
 		5DFB7A672970059300B15E97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DFB7A692970059800B15E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DFB7A6C2970059800B15E97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DFB7A732970227400B15E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5DFB7A7429702D0600B15E97 /* CustomControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControlsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +64,17 @@
 		5DFB7A642970059300B15E97 /* testIos */ = {
 			isa = PBXGroup;
 			children = (
+				5DFB7A732970227400B15E97 /* Info.plist */,
 				5DFB7A652970059300B15E97 /* testIosApp.swift */,
 				5DFB7A672970059300B15E97 /* ContentView.swift */,
 				5DFB7A692970059800B15E97 /* Assets.xcassets */,
 				5DFB7A6B2970059800B15E97 /* Preview Content */,
+				5DFB7A7429702D0600B15E97 /* CustomControlsView.swift */,
+				5DF2139F297524DE00F6D70C /* CustomPlayerView.swift */,
+				5DF213A12975251400F6D70C /* CustomVideoPlayer.swift */,
+				5DF213A7297526A600F6D70C /* PlayerView.swift */,
+				5DF213A32975254800F6D70C /* Media.swift */,
+				5DF213A52975256900F6D70C /* PlayerViewModel.swift */,
 			);
 			path = testIos;
 			sourceTree = "<group>";
@@ -137,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF213A0297524DE00F6D70C /* CustomPlayerView.swift in Sources */,
+				5DFB7A7529702D0600B15E97 /* CustomControlsView.swift in Sources */,
+				5DF213A42975254800F6D70C /* Media.swift in Sources */,
+				5DF213A8297526A600F6D70C /* PlayerView.swift in Sources */,
 				5DFB7A682970059300B15E97 /* ContentView.swift in Sources */,
 				5DFB7A662970059300B15E97 /* testIosApp.swift in Sources */,
+				5DF213A62975256900F6D70C /* PlayerViewModel.swift in Sources */,
+				5DF213A22975251400F6D70C /* CustomVideoPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +296,7 @@
 				DEVELOPMENT_TEAM = 5364FKJ838;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testIos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +326,7 @@
 				DEVELOPMENT_TEAM = 5364FKJ838;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testIos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
